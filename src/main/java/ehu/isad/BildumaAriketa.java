@@ -94,6 +94,8 @@ public class BildumaAriketa extends Application {
 
             try {
                 imageView.setImage(lortuIrudia(fitx /* 48x48 */));
+                imageView.setFitHeight(65);
+                imageView.setFitWidth(65);
             } catch (IOException e) {
                 e.printStackTrace();
             }
